@@ -1,0 +1,70 @@
+.Wraper{
+ max-width: 800px;
+ width: 100%;
+ margin: 0 auto;
+ 
+}
+.Header{
+  display: flex;
+  justify-content: center;
+}
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.div1{
+  width: 180px;
+  background-color: rgb(240, 233, 242);
+  margin-right: 5px;
+  border-radius: 10px;
+
+}
+
+.div1 p, h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid grey;
+ 
+ 
+}
+
+.div1  button{
+  margin-left:17px;
+  cursor: pointer;
+}
+.div1 h4{
+  margin-left: 55px;
+}
+.div1 button{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(134, 154, 192);
+  background-color: rgb(217, 209, 225);}
+
+
+.div1:hover{
+  transform:scale(1.1);
+  border-radius: 10px;
+  color: white;
+  background-color:  hsl(232, 47%, 66%);
+  
+
+}
+
+@media(max-width:600px){
+  .section{
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+}
